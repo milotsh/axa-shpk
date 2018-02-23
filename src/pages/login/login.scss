@@ -1,0 +1,23 @@
+.login-page h1{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+}
+.login-form{
+    margin: 20%;
+}
+.button-login{
+    background-color: green;
+    margin-top: 20%;
+}
+.button-register{
+    background-color: gray;
+    margin-top: 5%;
+}
+.button-md:hover:not(.disable-hover){
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+}
+

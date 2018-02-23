@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="login-page">
+  <h1>AXA</h1>
+
+  <ion-list class="login-form">
+    <ion-item>
+      <ion-input type="text" placeholder="Username"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-input type="password" placeholder="Password"></ion-input>
+    </ion-item>
+  
+    <button class="button-login" ion-button block (click)="login()">Login</button>
+    <button class="button-register" ion-button block (click)="register()">Register</button>
+
+  </ion-list>
+</ion-content>
